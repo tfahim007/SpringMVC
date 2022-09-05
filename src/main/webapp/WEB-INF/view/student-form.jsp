@@ -23,7 +23,20 @@
     <br><br>
     Second Name: <form:input path="lastName" />
     <br><br>
+    <form:select path="country">
+            <form:options items ="${student.countryOptions}"/>
+
+    </form:select>
+
+    Favourite Language
+    <hr>
+    PHP<form:checkbox path="favouriteLanguage" value="PHP"/>
+    Java<form:checkbox path="favouriteLanguage" value="Java"/>
+    C++<form:checkbox path="favouriteLanguage" value="C++"/>
+    Perl<form:checkbox path="favouriteLanguage" value="Perl"/>
+    <br><br>
     <input type="submit" value="Submit">
+    <br><br>
 </form:form>
 
 </body>
