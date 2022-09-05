@@ -9,6 +9,6 @@
 </head>
 <body>
  <h2>${message}</h2>
- <a href="showForm">Show Form</a>
+ <a href="student/showForm">Show Form</a>
 </body>
 </html>
