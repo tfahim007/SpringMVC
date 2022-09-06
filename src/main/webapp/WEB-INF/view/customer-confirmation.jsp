@@ -20,6 +20,8 @@
 <body>
 The customer is confirmed: ${customer.firstName} ${customer.lastName}
 <br>
+Course Code: ${customer.courseCode}
+<br>
 
 </body>
 </html>
